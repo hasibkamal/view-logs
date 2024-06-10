@@ -42,7 +42,7 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a target="_blank" href="http://www.srmilon.com"><i>by</i> <span style="color:blue;">SRMILON</span></a>
+                <li><a target="_blank" href="https://hasibkamal.github.io"><i>by</i> <span style="color:blue;">Hasib Kamal Chowdhury</span></a>
                 </li>
             </ul>
         </div><!--/.nav-collapse -->

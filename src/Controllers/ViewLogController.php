@@ -34,7 +34,7 @@ class ViewLogController extends Controller
             return $this->redirect($this->request->url());
         }
 
-        return app('view')->make('log-viewer::log', [
+        return app('view')->make('view-logs::log', [
             'files' => ViewLog::getFiles(true),
             'log_data' => ViewLog::getAllLogs(),
             'current_file' => ViewLog::getCurrentLogFileName()
