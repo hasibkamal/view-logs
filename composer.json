@@ -1,0 +1,39 @@
+{
+  "name": "hasibkamal/view-logs",
+  "type": "laravel-package",
+  "description": "To view laravel logs in details",
+  "keywords": [
+    "logs",
+    "laravel-logs",
+    "view-logs",
+    "laravel-logs-view",
+    "logs-reader"
+  ],
+  "homepage": "https://github.com/hasibkamal/view-logs",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.0",
+    "illuminate/support": "4.2.*|5.*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/Controllers"
+    ],
+    "psr-4": {
+      "HasibKamal\\ViewLogs\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hasib Kamal Chowdhury",
+      "email": "hasibkamal.cse@gmail.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "HasibKamal\\LogViewer\\LogServiceProvider"
+      ]
+    }
+  }
+}
