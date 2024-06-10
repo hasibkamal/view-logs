@@ -20,7 +20,7 @@
       "src/Controllers"
     ],
     "psr-4": {
-      "HasibKamal\\ViewLogs\\": "src/"
+      "HasibKamal\\ViewLog\\": "src/"
     }
   },
   "authors": [
