@@ -1,3 +1,3 @@
 <?php
 
-Route::get('logs', 'HasibKamal\ViewLogs\ViewLogController@index');
+Route::get('logs', 'HasibKamal\ViewLog\ViewLogController@index');
