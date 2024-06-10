@@ -13,6 +13,8 @@ class LogServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $this->loadRoutesFrom(__DIR__.'/routes.php');
+
         if (method_exists($this, 'loadViewsFrom')) {
             $this->loadViewsFrom(__DIR__ . '/views', 'view-logs');
         }
