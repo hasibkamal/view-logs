@@ -32,7 +32,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "HasibKamal\\LogViewer\\LogServiceProvider"
+        "HasibKamal\\ViewLog\\LogServiceProvider"
       ]
     }
   }
