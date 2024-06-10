@@ -1,6 +1,6 @@
 <?php
 
-namespace HasibKamal\ViewLogs;
+namespace HasibKamal\ViewLog;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -31,6 +31,6 @@ class LogServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('HasibKamal\ViewLogs\ViewLogController');
+        $this->app->make('HasibKamal\ViewLog\ViewLogController');
     }
 }
